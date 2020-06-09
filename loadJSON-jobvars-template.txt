@@ -1,0 +1,4 @@
+Tdpid = 'yourteradatamachine'
+UserName = 'yourusername'
+UserPassword = 'yourpassword'
+FileName = '2020-05-14-superweb2.txt'

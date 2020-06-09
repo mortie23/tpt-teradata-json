@@ -1,0 +1,8 @@
+-- Create table for loading
+DROP TABLE XMLDEV.audit_log;
+CREATE TABLE XMLDEV.audit_log (
+  ID_COL VARCHAR(100) 
+  , JSON_DATA JSON (16776192)  
+)
+UNIQUE PRIMARY INDEX(ID)
+;
