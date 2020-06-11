@@ -7,8 +7,10 @@ tbuild -f loadJSON.tpt
 DEFINE JOB LOADING_JSON_DATA
 (
   /* Cannot use ID as reserved */
-  DEFINE SCHEMA SOURCE_SCHEMA (               
+  DEFINE SCHEMA SOURCE_SCHEMA (
     ID_COL VARCHAR(100)
+    , ENV VARCHAR(4)
+    , FILENAME VARCHAR(100)
     , JSON_DATA JSON(16776192) AS DEFERRED BY NAME
   )
   ;
@@ -37,6 +39,7 @@ DEFINE JOB LOADING_JSON_DATA
   (
     VARCHAR TraceLevel = 'None',
     VARCHAR PrivateLogName = 'ins_log',
+    VARCHAR LogonMech = 'LDAP',
     VARCHAR Tdpid = @Tdpid,
     VARCHAR UserName = @UserName,
     VARCHAR UserPassword = @UserPassword,
@@ -47,7 +50,7 @@ DEFINE JOB LOADING_JSON_DATA
   STEP LOADING_DATA_TO_SOURCE_TABLE
   (
     APPLY
-    ('INSERT INTO XMLDEV.audit_log values (:ID_COL,:JSON_DATA);')
+    ('INSERT INTO XMLDEV.STR_AUDIT_LOG values (:ID_COL, :ENV, :FILENAME, :JSON_DATA);')
     TO OPERATOR (SQL_INSERTER [1])
     SELECT * FROM OPERATOR (FILE_READER ())
     ; 

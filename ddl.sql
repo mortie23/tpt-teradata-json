@@ -1,8 +1,13 @@
--- Create table for loading
-DROP TABLE XMLDEV.audit_log;
-CREATE TABLE XMLDEV.audit_log (
+-- Author:	Christopher Mortimer
+-- Date:	2020-06-10
+-- Desc:	Create audit table for loading with TPT script
+
+DROP TABLE XMLDEV.STR_AUDIT_LOG;
+CREATE TABLE XMLDEV.STR_AUDIT_LOG (
   ID_COL VARCHAR(100) 
+  , ENV VARCHAR(4)
+  , FILENAME VARCHAR(100)
   , JSON_DATA JSON (16776192)  
 )
-UNIQUE PRIMARY INDEX(ID)
+PRIMARY INDEX(ID_COL)
 ;

@@ -1,3 +1,0 @@
-1,data/proc/sample1.json
-2,data/proc/sample2.json
-3,data/proc/sample3.json
