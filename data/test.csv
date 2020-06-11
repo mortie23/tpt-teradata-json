@@ -802,6 +802,3 @@
 802,test,2020-05-14-superweb2.log,data/test/proc/2020-05-14-superweb2.log_802.json
 803,test,2020-05-14-superweb2.log,data/test/proc/2020-05-14-superweb2.log_803.json
 804,test,2020-05-14-superweb2.log,data/test/proc/2020-05-14-superweb2.log_804.json
-1,test,sample.log,data/test/proc/sample.log_1.json
-2,test,sample.log,data/test/proc/sample.log_2.json
-3,test,sample.log,data/test/proc/sample.log_3.json

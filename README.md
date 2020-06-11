@@ -53,16 +53,22 @@ You'll need to run a command like this (depending on what you called your jobvar
 `cmd /C tbuild -f loadJSON.tpt -v loadJSON-jobvars-all.txt`.  
 This should load all the JSON to a Teradata table.  
 
-![Log](img/tpt-log.png)
-
 ## Test the load
 
+Run the `access-layer.sql` file to deploy the view layer that parses the JSON.  
 Copy and paste the `select-test.sql` scripts into Teradata Studio and run them.  
-![Select Test](img/select-test.png)  
-![Results](img/select-test-results.png)
+
+```sql
+select
+  * 
+from 
+  XMLDEV.STR_AUDIT_LOG_V
+;
+```
+![Results](img/select-results.png)
 
 ## Notes
 
-Usually you do not need `cmd /C to run a tbuild, but there is something strange in the Dept Health environment.  
+Usually you do not need `cmd /C to run a tbuild, but there is something strange in some corporate environments.
 
 

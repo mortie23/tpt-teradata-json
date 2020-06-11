@@ -7,7 +7,7 @@
 ## Example: ./valid-json-proc.sh test
 
 ## Include the echolog function
-. ../common/echolog.sh
+. echolog.sh
 
 ## Read in argument as log filename
 env=${1}

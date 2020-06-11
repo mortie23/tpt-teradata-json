@@ -1,3 +1,0 @@
-INFO, 2020-06-10_16:11:59, func(main), files deleted: data/prod/proc/*.json
-INFO, 2020-06-10_16:12:01, func(main), file reset: data/prod.csv
-INFO, 2020-06-10_16:12:04, func(main), 2018-10-12-superweb2.log

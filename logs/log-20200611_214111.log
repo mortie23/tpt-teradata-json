@@ -1,0 +1,4 @@
+INFO, 2020-06-11_21:41:12, func(main), files deleted: data/test/proc/*.json
+INFO, 2020-06-11_21:41:12, func(main), file reset: data/test.csv
+INFO, 2020-06-11_21:41:12, func(main), 2020-05-14-superweb2.log
+INFO, 2020-06-11_21:41:41, func(main), 804 lines parsed

@@ -39,7 +39,6 @@ DEFINE JOB LOADING_JSON_DATA
   (
     VARCHAR TraceLevel = 'None',
     VARCHAR PrivateLogName = 'ins_log',
-    VARCHAR LogonMech = 'LDAP',
     VARCHAR Tdpid = @Tdpid,
     VARCHAR UserName = @UserName,
     VARCHAR UserPassword = @UserPassword,
