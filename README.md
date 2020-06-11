@@ -27,7 +27,7 @@ scp user@machine:/opt/STR/audit/2020-05-14-superweb2.log ~/
 # For MobaXterm bash path
 /drives/c/<repo>/audit-log/data/
 # For Windows Path
-U:\<repo>\audit-log\data\
+C:\<repo>\audit-log\data\
 ```
 
 ## Valid JSON
@@ -38,8 +38,8 @@ This should be run in a local terminal (bash) session using MobaXterm.
 
 ```sh
 # Get into the path of the script
-cd /drives/u/<repo>/audit-log/
-./valid-json-proc.sh ./data/2020-05-14-superweb2.log
+cd /drives/c/<repo>/audit-log/
+./valid-json-proc.sh test
 ```
 
 ## Create your table
@@ -50,7 +50,7 @@ Run the `ddl.sql` file against your database (i.e. copy and paste code to Terada
 
 Make a copy of the `loadJSON-jobvars-template.txt` file as `loadJSON-jobvars-<any-name>.txt`.  
 You'll need to run a command like this (depending on what you called your jobvars file.  
-`cmd /C tbuild -f loadJSON.tpt -v loadJSON-jobvars-all.txt`.  
+`cmd /C tbuild -f loadJSON.tpt -v loadJSON-jobvars-test.txt`.  
 This should load all the JSON to a Teradata table.  
 
 ## Test the load
@@ -65,7 +65,7 @@ from
   XMLDEV.STR_AUDIT_LOG_V
 ;
 ```
-![Results](img/select-results.png)
+![Results](img/select-result.png)
 
 ## Notes
 
