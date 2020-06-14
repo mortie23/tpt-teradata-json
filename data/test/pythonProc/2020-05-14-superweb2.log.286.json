@@ -1,0 +1,1 @@
+{"time": 1576643796314, "thread": 74, "action": "query", "user": "confidential", "groups": ["administrators"], "source": "SuperWEB2", "hostname": "your-test-server", "jobUuid": "af51a25f-78f9-4067-b7af-a7586b0a62e7", "duration": 0.031, "txdId": "891639016", "txd": "truncate-save-space", "row": "\"Table Name\" FACTTABLE \"Medical Education and Training\"", "column": ""}

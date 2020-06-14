@@ -1,0 +1,1 @@
+{"time": 1580783497331, "thread": 32, "action": "query", "user": "confidential", "groups": ["APP-XA_SPX_WEB"], "source": "SuperWEB2", "hostname": "your-test-server", "jobUuid": "11006b7f-8fbf-4d50-aca8-8c1e249fe465", "duration": 0.387, "txdId": "-180605292", "txd": "truncate-save-space", "row": "\"ASGS 2016\" FACTTABLE \"All Professions All Years\"", "column": ""}

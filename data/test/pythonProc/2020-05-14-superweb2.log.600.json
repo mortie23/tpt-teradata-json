@@ -1,0 +1,1 @@
+{"time": 1580783054047, "thread": 63, "action": "query", "user": "confidential", "groups": ["APP-XA_SPX_WEB"], "source": "SuperWEB2", "hostname": "your-test-server", "jobUuid": "ee85b0e6-5abe-4ec6-803a-90f4c8962504", "duration": 0.444, "txdId": "1384597718", "txd": "truncate-save-space", "row": "\"Remoteness Area 2011\" FACTTABLE \"All Professions All Years\"", "column": ""}

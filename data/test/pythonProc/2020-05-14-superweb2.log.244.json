@@ -1,0 +1,1 @@
+{"time": 1576632619679, "thread": 58, "action": "query", "user": "confidential", "groups": ["APP-XA_SPX_WEB"], "source": "SuperWEB2", "hostname": "your-test-server", "jobUuid": "59d004b6-2696-4140-bf84-049342f3904f", "duration": 0.315, "txdId": "744961803", "txd": "truncate-save-space", "row": "\"Age\" FACTTABLE \"All Professions All Years\"", "column": ""}

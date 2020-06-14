@@ -1,0 +1,1 @@
+{"time": 1547614243375, "thread": 35, "action": "query", "user": "confidential", "groups": ["APP-XA_SPX_WEB"], "source": "SuperWEB2", "hostname": "your-test-server", "jobUuid": "12ae3dde-8a07-49db-a13b-46bbbb90a268", "duration": 0.025, "txdId": "345997938", "txd": "truncate-save-space", "row": "\"Setting\" FACTTABLE \"Clinical Placement 2013-2014\"", "column": ""}

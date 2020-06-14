@@ -1,0 +1,1 @@
+{"time": 1589439959892, "thread": 33, "action": "query", "user": "confidential", "groups": [], "source": "SuperWEB2", "hostname": "your-test-server", "jobUuid": "bbdffb09-8cfc-4370-8d76-608f72fa7322", "duration": 0.501, "txdId": "708993895", "txd": "truncate-save-space", "row": "\"Age\" FACTTABLE \"All Professions All Years\"", "column": ""}

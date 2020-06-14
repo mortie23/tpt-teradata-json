@@ -1,4 +1,4 @@
-Tdpid = '192.168.100.16'
-UserName = 'dbc'
-UserPassword = 'dbc'
+Tdpid = '192.168.0.28'
+UserName = 'MORTCH'
+UserPassword = 'MORTCH'
 FileName = 'test.csv'

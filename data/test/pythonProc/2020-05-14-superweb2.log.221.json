@@ -1,0 +1,1 @@
+{"time": 1574831513674, "thread": 71, "action": "query", "user": "confidential", "groups": [], "source": "SuperWEB2", "hostname": "your-test-server", "jobUuid": "588375b0-81d6-4836-9823-c08fcd60f694", "duration": 1.85, "txdId": "-601599825", "txd": "truncate-save-space", "row": "\"Local Government Area 2018\" FACTTABLE \"All Professions All Years\"", "column": ""}

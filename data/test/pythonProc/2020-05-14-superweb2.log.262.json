@@ -1,0 +1,1 @@
+{"time": 1576639001555, "thread": 84, "action": "query", "user": "confidential", "groups": ["administrators"], "source": "SuperWEB2", "hostname": "your-test-server", "jobUuid": "032eee35-5da6-419a-86e7-1ae4212a223b", "duration": 1.223, "txdId": "-261271203", "txd": "truncate-save-space", "row": "\"Year\" FACTTABLE \"ClinicalPlacements\"", "column": ""}

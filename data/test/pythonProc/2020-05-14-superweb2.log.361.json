@@ -1,0 +1,1 @@
+{"time": 1576717927138, "thread": 32, "action": "query", "user": "confidential", "groups": ["APP-XA_SPX_WEB"], "source": "SuperWEB2", "hostname": "your-test-server", "jobUuid": "677460ac-b421-4424-a167-4cb81ed83d52", "duration": -18.861, "txdId": "-644623247", "txd": "truncate-save-space", "row": "\"Customer Mail Indicator\" FACTTABLE \"Customers\"", "column": ""}

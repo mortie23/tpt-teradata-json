@@ -62,7 +62,7 @@ Copy and paste the `select-test.sql` scripts into Teradata Studio and run them.
 select
   * 
 from 
-  XMLDEV.STR_AUDIT_LOG_V
+  PRD_ADS_HWD_WDAPGRP_DB.STR_AUDIT_LOG_V
 ;
 ```
 ![Results](img/select-result.png)
