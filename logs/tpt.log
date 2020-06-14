@@ -1,3 +1,5 @@
+
+-- 14/06/2020  22:55.11 /drives/c/GitHub/mortie23/tpt-teradata-json master tbuild -f loadJSON.tpt -v loadJSON-jobvars-test.txt
 Teradata Parallel Transporter Version 16.20.00.15 64-Bit
 The global configuration file 'c:\program files\teradata\client\16.20\Teradata Parallel Transporter\twbcfg.ini' is used.
 Log Directory: C:\Program Files\Teradata\client\16.20\Teradata Parallel Transporter/logs
@@ -5,28 +7,28 @@ Checkpoint Directory: C:\Program Files\Teradata\client\16.20\Teradata Parallel T
 
 Job log: C:\Program Files\Teradata\client\16.20\Teradata Parallel Transporter/logs/chris-21.out
 Job id is chris-21, running on xpscold
-Teradata Parallel Transporter DataConnector Operator Version 16.20.00.15
 Teradata Parallel Transporter SQL Inserter Operator Version 16.20.00.15
 SQL_INSERTER: private log specified: ins_log
+Teradata Parallel Transporter DataConnector Operator Version 16.20.00.15
 FILE_READER[1]: DataConnector Producer operator Instances: 1
-FILE_READER[1]: ECI operator ID: 'FILE_READER-18440'
+FILE_READER[1]: ECI operator ID: 'FILE_READER-11016'
 FILE_READER[1]: Operator instance 1 processing file './data/\test.csv'.
 SQL_INSERTER: connecting sessions
 SQL_INSERTER: sending data
 SQL_INSERTER: finished sending data
 FILE_READER[1]: Total files processed: 1.
-SQL_INSERTER: Total Rows Sent To RDBMS:      804
-SQL_INSERTER: Total Rows Applied:            804
+SQL_INSERTER: Total Rows Sent To RDBMS:      810
+SQL_INSERTER: Total Rows Applied:            810
 SQL_INSERTER: disconnecting sessions
 SQL_INSERTER: Performance metrics:
-SQL_INSERTER:     MB/sec in Load phase: 0.056
+SQL_INSERTER:     MB/sec in Load phase: 0.064
 SQL_INSERTER:     Elapsed time from start to Load phase:   2 second(s)
-SQL_INSERTER:     Elapsed time in Load phase:   21 second(s)
+SQL_INSERTER:     Elapsed time in Load phase:   4 second(s)
 SQL_INSERTER:     Elapsed time from Load phase to end: < 1 second
-SQL_INSERTER: Total processor time used = '0.390625 Second(s)'
-SQL_INSERTER: Start : Thu Jun 11 21:41:45 2020
-SQL_INSERTER: End   : Thu Jun 11 21:42:08 2020
+SQL_INSERTER: Total processor time used = '0.265625 Second(s)'
+SQL_INSERTER: Start : Sun Jun 14 22:55:33 2020
+SQL_INSERTER: End   : Sun Jun 14 22:55:39 2020
 Job step LOADING_DATA_TO_SOURCE_TABLE completed successfully
 Job chris completed successfully
-Job start: Thu Jun 11 21:41:45 2020
-Job end:   Thu Jun 11 21:42:08 2020
+Job start: Sun Jun 14 22:55:33 2020
+Job end:   Sun Jun 14 22:55:39 2020
